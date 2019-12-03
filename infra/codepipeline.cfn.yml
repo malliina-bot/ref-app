@@ -1,6 +1,7 @@
 AWSTemplateFormatVersion: '2010-09-09'
 
 # Prerequisites: Have your GitHub access token in Secrets Manager with name dev/github/token and key GitHubAccessToken
+# If you use a webhook, use an access key from the organization of the repo
 
 Description: CodePipeline with Secrets Manager
 
